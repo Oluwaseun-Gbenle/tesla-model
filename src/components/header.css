@@ -1,0 +1,43 @@
+.header{
+    display:flex;
+    background-color:transparent;
+    background:none;
+    position:fixed;
+    width:100vw;
+    top: 0;
+    margin: 15px;
+    margin-top:10px;
+    z-index: 100;
+    font-weight:400;
+    font-size:14px;
+}
+.header-logo{
+height:24px;
+width:100px;
+margin-top:7px;
+
+}
+.logo{
+    height:12px;
+    width:100px;
+}
+.header-center{
+    flex:1;
+    display:flex;
+    justify-content: center;
+}
+.header-center>p{
+margin:10px;
+text-transform:uppercase;
+}
+.header-right{
+display:flex;
+justify-content:flex-end;
+text-transform:uppercase;
+margin-right:70px;
+
+}
+.header-right>p{
+    margin:10px;
+    
+    }

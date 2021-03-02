@@ -1,0 +1,45 @@
+.item{
+    height:100vh;
+    width:100vw;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    display:flex;
+    justify-content: center;
+
+    
+}
+.item-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item-text{
+margin-top:20%;
+display: flex;
+flex-direction:column;
+font-size:42px;
+color:#393c41;
+align-items: center;
+flex:1;
+}
+.text-descr{
+    font-weight:200;
+    font-size:14px;
+}
+.item-base{
+    margin-bottom:40px;
+    display:flex;
+    flex-direction:column;
+}
+.base-btns{
+display:flex;
+cursor:pointer;
+}
+.item-expand{
+display:flex;
+color:black;
+margin-top:2%;
+justify-content: center;
+
+}
